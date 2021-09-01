@@ -44,6 +44,11 @@ h1 {
   height: 1020px;
 }
 
+.star {
+  top: -3px;
+  position: relative;
+}
+
 @media (max-width: 725px) {
   .chakra {
     flex-direction: column;
