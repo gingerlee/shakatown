@@ -63,4 +63,8 @@ h1 {
   .chakra:last-child {
     align-items: center;
   }
+
+  .lil {
+    margin-bottom: 16px;
+  }
 }
