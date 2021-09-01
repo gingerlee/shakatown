@@ -56,6 +56,9 @@ h1 {
     align-items: center;
     text-align: center;
   }
+  .chakra div {
+    width: 100%;
+   }
 
   .chakra:last-child {
     align-items: center;
