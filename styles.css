@@ -5,7 +5,12 @@ body {
   margin: 0;
 }
 
-.chonk {
+.title {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.chakra {
   border-bottom: 6px solid #6715EB;
   display: flex;
   flex-direction: row;
@@ -13,10 +18,15 @@ body {
   align-items: flex-end;
   margin: 0 auto;
   padding: 40px;
+  padding-bottom: 60px;
 }
 
-.chonk:last-child {
+.chakra:last-child {
   border-bottom: none;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
 
 h1 {
@@ -24,19 +34,25 @@ h1 {
   display: block;
 }
 
-.chonk div {
+.chakra div {
  width: 50%;
 }
 
+.root {
+  background-image: url("./kinis.png");
+  background-position-x: 100%;
+  height: 1020px;
+}
+
 @media (max-width: 725px) {
-  .chonk {
+  .chakra {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
 
-  .chonk:last-child {
+  .chakra:last-child {
     align-items: center;
   }
 }
